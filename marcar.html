@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcar Consulta</title>
+</head>
+<body>
+    <header>
+        <img src="https://w7.pngwing.com/pngs/516/179/png-transparent-pain-management-stethoscope-physician-computer-icons-stethoscope-icon-cdr-text-hospital.png" alt="logo" width="60" height="60" class="logo">
+        <h1>Consultas Médicas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cad.html">Cadastrar-se</a></li>
+                <li><a href="login.html">Entrar</a></li>
+                <li>Admim</li>
+                <ul>
+                    <li><a href="medicos.html">Médicos</a></li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Marcar Consulta</h1>
+        <form>
+            <label>Nome Completo
+                <input type="text">
+            </label>
+            <label>Cpf
+                <input type="number">
+            </label>
+            <label>Email
+                <input type="email">
+            </label>
+            <label>Endereço
+                <input type="text">
+            </label>
+            <label>Telefone
+                <input type="number">
+            </label>
+            <label>Dia da Consulta
+                <select name="select">
+                    <option value="1">Segunda-Feira</option>
+                    <option value="2">Terça-Feira</option>
+                    <option value="3">Quarta-Feira</option>
+                    <option value="4">Quinta-Feira</option>
+                    <option value="5">Sexta-Feira</option>
+                </select>
+            </label>
+            <label>Horário
+                <select name="select">
+                    <option value="valor1">8:00</option>
+                    <option value="valor2" >10:00</option>
+                    <option value="valor3">14:00</option>
+                  </select>
+            </label>
+            <label>Especialidade
+                <select>
+                    <option value="valor1">Pediatria</option>
+                    <option value="valor2">Psicologia</option>
+                </select>
+            </label>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <table border="1">
+            <tr>
+                <th>Especialidades</th>
+                <th>Dia</th>
+                <th>Horarios</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td>Pediatria</td>
+                <td>Segunda-Feira</td>
+                <td>8:00</td>
+                <td>R$ 120,00</td>
+            </tr>
+            <tr>
+                <td>Pediatria</td>
+                <td>Quarta-Feira</td>
+                <td>10:00</td>
+                <td>R$ 120,00</td>
+            </tr>
+            <tr>
+                <td>Pediatria</td>
+                <td>Sexta-Feira</td>
+                <td>8:00</td>
+                <td>R$ 120,00</td>
+            </tr>
+            <tr>
+                <td>Psicologia</td>
+                <td>Terça-Feira</td>
+                <td>10:00</td>
+                <td>R$ 200,00</td>
+            </tr>
+            <tr>
+                <td>Psicologia</td>
+                <td>Quarta-Feira</td>
+                <td>8:00</td>
+                <td>R$ 200,00</td>
+            </tr>
+            <tr>
+                <td>Psicologia</td>
+                <td>Quinta-Feira</td>
+                <td>10:00</td>
+                <td>R$ 200,00</td>
+            </tr>
+        </table>
+    </main>
+    <footer>Feito por Thiago</footer>
+</body>
+</html>
