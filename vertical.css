@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+/*titulo*/
+.title{
+	display: inline-block;
+	color: #cecece;
+}
+.logo{
+	display: inline-block;
+	vertical-align: top;
+}
+.cab{
+	text-align: center;
+	background-color: #1B365D;
+	height: 60px;
+}
+header{
+    position:;
+}
+/* menu vertical */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.ativo1{
+    background-color: #1B365D;
+    color: #cecece;
+}
