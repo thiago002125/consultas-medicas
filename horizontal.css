@@ -69,6 +69,7 @@ li.drop{
 /* display flex */
 .ped, .psi{
 	display: flex;
+	flex-wrap: wrap;
 	text-align: center;
 	justify-content: center;
 }
