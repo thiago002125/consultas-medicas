@@ -15,6 +15,10 @@ body{
 	background-color: #1B365D;
 	height: 60px;
 }
+header{
+	position: sticky;
+	top: 0;
+}
 /*menu horizontal*/
 ul{
 	list-style-type: none;
