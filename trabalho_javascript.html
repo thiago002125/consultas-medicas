@@ -27,7 +27,7 @@
         let mensagem = '';
         let id = 0;
         for (let especialidades of lista_especialidades) {
-            mensagem += id + ' ' + ':' + ' ' + especialidades.especialidade + ' - ' + especialidades.medico + '\n';
+            mensagem += id + ':' + ' ' + especialidades.especialidade + ' - ' + especialidades.medico + '\n'
             id++;
         }
         alert(mensagem)
@@ -43,22 +43,22 @@
     }
     function editar_especialidades(lista_especialidades) {
         listar_especialidades(lista_especialidades)
-        let id = parseInt(prompt('Qual id deseja editar?'))
-        let variavel = lista_especialidades[id];
-        let nome= prompt(`Especialidade: [${variavel.nome}]`); 
-        if (nome== '') {
-            nome= variavel.nome;   
-        }
-        let medico = prompt(`Medico: [${variavel.medico}]`); 
-        if (medico == '') {
-            medico = variavel.medico;
-        }
-        let especialidadeNovo= {
-            nome: nome,
+        let id = parseInt(prompt('ID'))
+        let variavel_id = lista_especialidades[id]
+        let especialidade = prompt(`Especialidades: [${variavel_id.especialidade}]`)
+        if (especialidade = '') {
+            especialidade = variavel_id.especialidade
+        };
+        let medico = prompt(`Medico: [${variavel_id.medico}]`)
+        if (medico = '') {
+            medico = variavel_id.medico
+        };
+        let especialidadeNova = {
+            especialidade: especialidade,
             medico: medico
         };
-        lista_especialidades[id] = especialidadeNovo;
-    }
+        lista_especialidades[id] = especialidadeNova;
+    };
     function editar_medicos(lista_medicos) {
         listar_medicos(lista_medicos)
         let id = parseInt(prompt('Qual id deseja editar?'))
